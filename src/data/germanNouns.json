@@ -33,5 +33,35 @@
         "article": "die",
         "singular": "Extension",
         "plural": "die Extensions"
+    },
+    {
+        "article": "der",
+        "singular": "Kommentar",
+        "plural": "die Kommentare"
+    },
+    {
+        "article": "der",
+        "singular": "Look",
+        "plural": "die Looks"
+    },
+    {
+        "article": "der",
+        "singular": "Prozess",
+        "plural": "die Prozesse"
+    },
+    {
+        "article": "das",
+        "singular": "Komma",
+        "plural": "die Kommas"
+    },
+    {
+        "article": "das",
+        "singular": "Formular",
+        "plural": "die Formulare"
+    },
+    {
+        "article": "das",
+        "singular": "Modul",
+        "plural": "die Module"
     }
 ]

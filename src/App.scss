@@ -1,12 +1,12 @@
 body {
-  background-color: #333;
+  background-color: rgb(65, 88, 165);
   color: #ccc;
   font-family: sans-serif;
   padding: 0 1rem;
 }
 
 h1 {
-  color:yellow;
+  color:rgb(219, 219, 146);
 }
 
 .germanNouns {
@@ -14,6 +14,8 @@ h1 {
     background-color: #222;
     margin-bottom: 1rem;
     padding: 1rem;
-    
+    .singular {
+      color: orange;
+    }
   }
 }
