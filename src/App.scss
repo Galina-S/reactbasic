@@ -14,6 +14,11 @@ h1 {
     background-color: #222;
     margin-bottom: 1rem;
     padding: 1rem;
+    display:flex;
+    gap: 1rem;
+    img {
+      width: 6rem;
+    }
     .singular {
       color: orange;
     }
