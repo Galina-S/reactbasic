@@ -1,6 +1,5 @@
 import  _germanNouns from '../data/germanNouns.json'
 
-
 function shuffle(array) {
   let currentIndex = array.length,  randomIndex;
   while (currentIndex != 0) {
@@ -12,11 +11,8 @@ function shuffle(array) {
   return array;
 }
 
-
-
-
 export const GermanNouns = ({article}) => {
-    const germanNouns = shuffle(_germanNouns).filter(m => m.article === "article"); //
+    const germanNouns = shuffle(_germanNouns).filter(m => m.article === article); //
     return (
     <>   
     <h2>German Nouns</h2>
@@ -38,6 +34,6 @@ export const GermanNouns = ({article}) => {
       )
     })}
        </div>
-       </>   
+    </>   
   );
 };
